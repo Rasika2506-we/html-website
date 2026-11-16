@@ -3,125 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rasika Bhatia | Personal Resume</title>
+    <title>Rasika Bhatia — Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-shell">
+        <header class="site-header" id="top">
+            <a class="wordmark" href="#top">rasika<span>.</span></a>
+            <nav class="navigation">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#interests">Interests</a>
+                <a class="nav-contact" href="#contact">Say hello ↗</a>
+            </nav>
+        </header>
 
-    <header>
-        <h1>Rasika Bhatia</h1>
-        <p>BBA Student | Digital Business and Entrepreneurship</p>
+        <main>
+            <section class="hero" id="about">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> A little introduction</p>
+                    <h1>Curious by<br>nature. <em>Creative</em><br>by choice.</h1>
+                    <p class="hero-name">I'm <strong>Rasika Bhatia</strong> — a BBA student exploring the worlds of digital business, entrepreneurship and design.</p>
+                    <div class="hero-links">
+                        <a class="button button-dark" href="#education">Get to know me <span>↓</span></a>
+                        <span class="hero-location">Bengaluru, India</span>
+                    </div>
+                </div>
 
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#education">Education</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#interests">Interests</a> |
-            <a href="#contact">Contact</a>
-        </nav>
-        <hr>
-    </header>
+                <div class="portrait-wrap">
+                    <div class="portrait-frame">
+                        <img src="rasika.jpg" alt="Portrait of Rasika Bhatia">
+                    </div>
+                    <div class="portrait-caption">The person<br>behind the ideas <span>✳</span></div>
+                    <div class="round-stamp">LEARN<br>• CREATE<br>• GROW</div>
+                </div>
+                <div class="hero-bottom-note">DIGITAL BUSINESS & ENTREPRENEURSHIP <span>✳</span> FIRST YEAR BBA</div>
+            </section>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="rasika.jpg" alt="Portrait of Rasika Bhatia" width="220">
-            <p>
-                Hello! I am Rasika Bhatia, a first-year BBA student at IIM Bangalore,
-                studying Digital Business and Entrepreneurship. I am interested in
-                business, technology and creative activities. I enjoy learning new
-                skills and exploring how ideas can be turned into meaningful work.
-            </p>
-        </section>
+            <section class="intro-strip">
+                <p>Business-minded, creatively curious, and always learning.</p>
+                <span>01 / INTRODUCTION</span>
+            </section>
 
-        <hr>
+            <section class="section education-section" id="education">
+                <div class="section-topline"><span>02 / THE JOURNEY</span><span>ACADEMICS & QUALIFICATIONS</span></div>
+                <div class="section-title-row">
+                    <h2>Education<span class="accent-dot">.</span></h2>
+                    <p>A foundation built on curiosity, consistency and a love for learning.</p>
+                </div>
 
-        <section id="education">
-            <h2>Education</h2>
-            <table border="1" cellpadding="8">
-                <tr>
-                    <th>Institution</th>
-                    <th>Qualification</th>
-                    <th>Score / Status</th>
-                </tr>
-                <tr>
-                    <td>IIM Bangalore</td>
-                    <td>BBA - Digital Business and Entrepreneurship</td>
-                    <td>Currently pursuing (1st year)</td>
-                </tr>
-                <tr>
-                    <td>Kendriya Vidyalaya</td>
-                    <td>Class 12</td>
-                    <td>97%</td>
-                </tr>
-                <tr>
-                    <td>St. Paul's School</td>
-                    <td>Class 10</td>
-                    <td>94.8%</td>
-                </tr>
-            </table>
+                <div class="education-list">
+                    <article class="education-card current-card">
+                        <div class="card-index">01</div>
+                        <div class="education-main">
+                            <p class="card-kicker">Currently pursuing · First year</p>
+                            <h3>Indian Institute of<br>Management Bangalore</h3>
+                            <p>Bachelor of Business Administration</p>
+                            <p class="muted-line">Digital Business and Entrepreneurship</p>
+                        </div>
+                        <div class="card-side"><span class="current-label">IN PROGRESS</span><span class="arrow-mark">↗</span></div>
+                    </article>
 
-            <h3>Additional Qualification</h3>
-            <p>
-                Currently pursuing Chartered Accountancy (CA).
-                Successfully cleared the CA Foundation examination.
-            </p>
-        </section>
+                    <article class="education-card">
+                        <div class="card-index">02</div>
+                        <div class="education-main">
+                            <p class="card-kicker">Senior secondary · Class XII</p>
+                            <h3>Kendriya Vidyalaya</h3>
+                            <p>Completed Class 12</p>
+                        </div>
+                        <div class="score-block"><strong>97</strong><span>%</span><small>SCORE</small></div>
+                    </article>
 
-        <hr>
+                    <article class="education-card">
+                        <div class="card-index">03</div>
+                        <div class="education-main">
+                            <p class="card-kicker">Secondary · Class X</p>
+                            <h3>St. Paul's School</h3>
+                            <p>Completed Class 10</p>
+                        </div>
+                        <div class="score-block"><strong>94.8</strong><span>%</span><small>SCORE</small></div>
+                    </article>
+                </div>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Tailwind CSS</li>
-                <li>Growing interest in Graphic Design</li>
-            </ul>
-        </section>
+                <div class="ca-note">
+                    <div class="ca-symbol">CA</div>
+                    <div><p class="card-kicker">Alongside my degree</p><h3>Chartered Accountancy</h3><p>Currently pursuing CA · CA Foundation examination cleared.</p></div>
+                    <span class="ca-check">✓</span>
+                </div>
+            </section>
 
-        <hr>
+            <section class="section skills-section" id="skills">
+                <div class="section-topline"><span>03 / WHAT I BRING</span><span>SKILLS & EXPLORATION</span></div>
+                <div class="skills-layout">
+                    <div>
+                        <h2>A growing<br><em>toolkit.</em></h2>
+                        <p class="section-description">I enjoy learning how technology can bring ideas to life. These are some of the tools and areas I am exploring.</p>
+                    </div>
+                    <div class="skill-content">
+                        <p class="card-kicker">WEB DEVELOPMENT</p>
+                        <div class="skill-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Tailwind CSS</span>
+                        </div>
+                        <div class="skill-divider"></div>
+                        <p class="card-kicker">CURRENTLY EXPLORING</p>
+                        <div class="design-interest"><span class="design-star">✳</span><div><h3>Graphic Design</h3><p>Developing an interest in visual communication, layout and design.</p></div></div>
+                    </div>
+                </div>
+            </section>
 
-        <section id="interests">
-            <h2>Interests and Hobbies</h2>
-            <ul>
-                <li>Music</li>
-                <li>Singing</li>
-                <li>Dancing</li>
-                <li>Painting</li>
-                <li>Reading</li>
-            </ul>
-        </section>
+            <section class="section interests-section" id="interests">
+                <div class="section-topline"><span>04 / OFF THE SCREEN</span><span>THINGS I LOVE</span></div>
+                <div class="section-title-row">
+                    <h2>My little<br><em>world.</em></h2>
+                    <p>Outside academics and code, creativity finds its way into the things I enjoy every day.</p>
+                </div>
+                <div class="interest-grid">
+                    <article class="interest-card interest-music"><span class="interest-number">01</span><span class="interest-icon">♫</span><h3>Music</h3><p>Finding inspiration in sound.</p></article>
+                    <article class="interest-card interest-sing"><span class="interest-number">02</span><span class="interest-icon">♪</span><h3>Singing</h3><p>A little melody, a lot of joy.</p></article>
+                    <article class="interest-card interest-dance"><span class="interest-number">03</span><span class="interest-icon">✳</span><h3>Dancing</h3><p>Moving to my own rhythm.</p></article>
+                    <article class="interest-card interest-paint"><span class="interest-number">04</span><span class="interest-icon">◒</span><h3>Painting</h3><p>Playing with colour and form.</p></article>
+                    <article class="interest-card interest-read"><span class="interest-number">05</span><span class="interest-icon">⌑</span><h3>Reading</h3><p>Always room for another story.</p></article>
+                </div>
+            </section>
 
-        <hr>
+            <section class="contact-section" id="contact">
+                <div class="contact-copy">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> The next chapter</p>
+                    <h2>Have an idea?<br><em>Let's talk.</em></h2>
+                    <p>Thanks for stopping by and taking a look at my journey.</p>
+                    <span class="contact-doodle">✳</span>
+                </div>
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">YOUR NAME</label>
+                    <input type="text" id="name" name="name" placeholder="How should I address you?">
+                    <label for="email">YOUR EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="name@example.com">
+                    <label for="message">YOUR MESSAGE</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write a little note..."></textarea>
+                    <button type="submit">Send a message <span>↗</span></button>
+                    <p class="form-note">This is a sample front-end form. It needs a form service or backend to send messages.</p>
+                </form>
+            </section>
+        </main>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>You can use the form below to get in touch.</p>
-            <form action="#" method="post">
-                <p>
-                    <label for="name">Your Name:</label><br>
-                    <input type="text" id="name" name="name">
-                </p>
-                <p>
-                    <label for="email">Your Email:</label><br>
-                    <input type="email" id="email" name="email">
-                </p>
-                <p>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="4" cols="30"></textarea>
-                </p>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-
-    <hr>
-
-    <footer>
-        <p>&copy; 2026 Rasika Bhatia. All rights reserved.</p>
-        <p><a href="#top">Back to top</a></p>
-    </footer>
-
+        <footer class="site-footer">
+            <a class="wordmark" href="#top">rasika<span>.</span></a>
+            <p>Made with curiosity & a little creativity.</p>
+            <a href="#top">BACK TO TOP ↑</a>
+        </footer>
+    </div>
 </body>
 </html>
